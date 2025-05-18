@@ -9,7 +9,7 @@ const BannerContent = ({ img, title, subTitle }) => {
               <p className="text-slate-700 max-w-2xl text-lg bg-gray-100 p-3 rounded-sm">{subTitle}</p>
             </div>
             <div>
-              <button className="bg-blue-700 text-lg text-white py-3 px-5 font-semibold rounded-md">Start Managing Now</button>
+              <button className="bg-[#259E01] text-lg text-white py-3 px-5 font-semibold rounded-md">Start Managing Now</button>
             </div>
           </div>
         </div>
