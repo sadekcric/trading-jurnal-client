@@ -1,13 +1,21 @@
 import Banner from "../Banner/Banner";
 import Featured from "../Featured/Featured";
-import LiveDashboard from "../LiveDashbord/LiveDashboard";
+import HowItWorks from "../HowItWorks/HowItWorks";
+import LiveDashboard from "../LiveDashboard/LiveDashboard";
+import Dashboard from "./../../Dashboard/Dashboard";
 
 const Home = () => {
-  return (
+  let signedIn = true;
+  return signedIn ? (
+    <>
+      <Dashboard />
+    </>
+  ) : (
     <>
       <Banner />
       <Featured />
       <LiveDashboard />
+      <HowItWorks />
     </>
   );
 };
